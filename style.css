@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+body{
+    background: url(back.jpg);
+    font-size: 42px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 80px;
+}
+
+.timer,
+.now_time,
+.end_time{
+    padding-left: 50px;
+}
+
+.timer{
+    width: auto;
+    padding: 20px 50px;
+}
+
+.textbox{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 56px;
+}
+
+.box{
+    width: 160px; 
+    padding: 0;
+    padding-top: 5px;
+    font-size: 56px;
+}
+
+.attention{
+    font-size: 36px;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.fotter{
+    width: auto;
+    text-align: center;
+}
+
+.btn{
+    width: 300px;
+    font-size: 48px;
+    padding: 30px;
+    margin: 0 20px;
+    color: black;
+}
+
+.not{
+    display: none;
+}

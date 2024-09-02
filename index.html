@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>カラオケタイマー</title>
+    <link rel="stylesheet" href="sanitize.css">
+    <link rel="icon" href="fav.jpg" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <h1 class="title">カラオケタイマー</h1>
+    <div class="timer">
+        <h2 id="timer" class="not"></h2>
+    </div>
+    <div class="now_time">
+        <h2 id="now">現在時刻：</h2>
+    </div>
+    <div class="end_time">
+        <h2 id="end"></h2>
+    </div>
+    
+    <div class="textbox">
+        <p>終了時刻を入力</p>
+        <input type="text" inputmode="numeric" id="hours" class="box" name="hours">時
+        <input type="text" inputmode="numeric" id="minuts" class="box" name="minuts">分
+
+        <p class="attention">24時間表示で入力</p>
+    </div>
+    <div class="fotter">
+        <button class="btn" id="ok">決定</button>
+        <button class="btn" id="clear">クリア</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
