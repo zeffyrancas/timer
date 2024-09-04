@@ -208,7 +208,8 @@ function comparing(h,m){
 function reset(){
     $box_h.value = "";
     $box_m.value = "";
-    localStorage.clear();
+    localStorage.removeItem("hours");
+    localStorage.removeItem("minuts");
     screen.classList.add("not");
     $end.innerHTML   = "終了時刻：";
     location.reload();
